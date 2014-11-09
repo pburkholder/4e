@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document signature="Hero Lab Data">
+
+<!-- Original Dragon Breath:
+  <thing id="pRacDraBre" name="Dragon Breath" description="Level 11: The bonus increases to +4.{br}Level 21: The bonus increases to +6.{br}{br}{b}Hit{/b}: 1d6 + Constitution modifier damage." compset="Power">
+    <fieldval field="pwDamBase" value="1d6"/>
+    <fieldval field="pwSpecial" value="When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power."/>
+    <fieldval field="pwFlavor" value="As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes."/>
+    <fieldval field="pwTarget" value="Each creature in the blast"/>
+    <fieldval field="pwRange1" value="3"/>
+    <fieldval field="pwAtkExtra" value="Constitution, or Dexterity vs. Reflex. You gain a +2 bonus to the attack roll."/>
+    <fieldval field="spcMax" value="3"/>
+    <tag group="PowerClass" tag="Race"/>
+    <tag group="AttackType" tag="CloseBlast"/>
+    <tag group="PowerType" tag="Encounter"/>
+    <tag group="DamageAttr" tag="attrCon"/>
+    <tag group="User" tag="NeedChosen"/>
+    <tag group="User" tag="AttrPhys"/>
+    <tag group="AttackVs" tag="defRef"/>
+    <tag group="ActionType" tag="Minor"/>
+    </thing>
+-->
+
+  <thing id="pRacDraBre" name="Enhanced Dragon Breath" description="{b}Hit{/b}: 1d6 + Constitution modifier damage." compset="Power">
+    <fieldval field="pwDamBase" value="1d6"/>
+    <fieldval field="pwSpecial" value="When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power&apos;s damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character&apos;s life and do not change the power&apos;s other effects."/>
+    <fieldval field="pwFlavor" value="As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes."/>
+    <fieldval field="pwTarget" value="Each creature in the blast"/>
+    <fieldval field="pwRange1" value="5"/>
+    <fieldval field="pwAtkExtra" value="Constitution, or Dexterity vs. Reflex. You gain a +2 bonus to the attack roll."/>
+    <tag group="ActionType" tag="Standard"/>
+    <tag group="PowerClass" tag="Race"/>
+    <tag group="AttackType" tag="CloseBlast"/>
+    <tag group="PowerType" tag="Encounter"/>
+    <tag group="DamageAttr" tag="attrCon"/>
+    <tag group="User" tag="NeedChosen"/>
+    <tag group="User" tag="AttrPhys"/>
+    <tag group="AttackVs" tag="defRef"/>
+    </thing>
+
+  <thing id="pRac2DraBr" name="Enhanced Dragon Breath 2" description="Level 11: The bonus increases to +4.{br}Level 21: The bonus increases to +6.{br}{br}{b}Hit{/b}: 1d6 + Constitution modifier damage.{br}Level 11: 2d6 + Constitution modifier damage.{br}Level 21: 3d6 + Constitution modifier damage." compset="Power">
+    <fieldval field="pwDamBase" value="1d6"/>
+    <fieldval field="pwSpecial" value="When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power&apos;s damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character&apos;s life and do not change the power&apos;s other effects."/>
+    <fieldval field="pwFlavor" value="As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes."/>
+    <fieldval field="pwTarget" value="Each creature in the blast"/>
+    <fieldval field="pwRange1" value="5"/>
+    <fieldval field="pwAtkExtra" value="Constitution, or Dexterity vs. Reflex. You gain a +2 bonus to the attack roll."/>
+    <tag group="ActionType" tag="Standard"/>
+    <tag group="PowerClass" tag="Race"/>
+    <tag group="AttackType" tag="CloseBlast"/>
+    <tag group="PowerType" tag="Encounter"/>
+    <tag group="DamageAttr" tag="attrCon"/>
+    <tag group="User" tag="NeedChosen"/>
+    <tag group="User" tag="AttrPhys"/>
+    <tag group="AttackVs" tag="defRef"/>
+    </thing>
+
+  <thing id="pFCSComRoa" name="Comeback Roar" description="{b}Hit{/b}: 2X Breath damage and you can spend a healing surge." compset="Power">
+    <fieldval field="pwFlavor" value="A timely blow against a foe invigorates you, giving you the strength and resolve to fight on."/>
+       <fieldval field="pwSpecial" value="Dragonborn Fighters only"/>
+   <fieldval field="pwDamBase" value="2d6"/>
+    <fieldval field="pwTarget" value="One creature"/>
+    <tag group="ReqLevel" tag="1"/>
+    <tag group="ActionType" tag="Standard"/>
+    <tag group="PowerClass" tag="clsFighter"/>
+    <tag group="PowerType" tag="Daily"/>
+    <tag group="Damage" tag="Weapon2"/>
+    <tag group="DamageAttr" tag="attrStr"/>
+    <tag group="EffectType" tag="Healing"/>
+    <tag group="PowerSrc" tag="Martial"/>
+    <tag group="EffectType" tag="Reliable"/>
+    <tag group="PowerAcc" tag="Weapon"/>
+    <tag group="AttackType" tag="MeleeWep"/>
+    <tag group="Attack" tag="attrStr"/>
+    <tag group="AttackVs" tag="defAC"/>
+    </thing>
+
+  <thing id="pFCSComRo2" name="Comeback Roar 2" description="{b}Hit{/b}: 2X Breath damage and you can spend a healing surge." compset="Power">
+    <fieldval field="pwFlavor" value="A timely blow against a foe invigorates you, giving you the strength and resolve to fight on."/>
+       <fieldval field="pwSpecial" value="Dragonborn Fighters only"/>
+   <fieldval field="pwDamBase" value="2d6"/>
+    <fieldval field="pwTarget" value="One creature"/>
+    <tag group="ReqLevel" tag="1"/>
+    <tag group="ActionType" tag="Standard"/>
+    <tag group="PowerClass" tag="clsFighter"/>
+    <tag group="PowerType" tag="Daily"/>
+    <tag group="Damage" tag="Weapon2"/>
+    <tag group="DamageAttr" tag="attrStr"/>
+    <tag group="EffectType" tag="Healing"/>
+    <tag group="PowerSrc" tag="Martial"/>
+    <tag group="EffectType" tag="Reliable"/>
+    <tag group="PowerAcc" tag="Weapon"/>
+    <tag group="AttackType" tag="MeleeWep"/>
+    <tag group="Attack" tag="attrStr"/>
+    <tag group="AttackVs" tag="defAC"/>
+    </thing>
+
+  <thing id="pFCSTidStr" name="Tidal Strike" description="{b}Hit{/b}: 1[W] + Strength modifier damage" compset="Power">
+    <fieldval field="pwFlavor" value="You stike like a force of nature"/>
+    <fieldval field="pwSpecial" value="Dragonborn Fithers Only"/>
+    <fieldval field="pwTarget" value="One creature"/>
+    <fieldval field="pwAtkMod" value="+2"/>
+    <tag group="PowerClass" tag="clsFighter"/>
+    <tag group="PowerType" tag="AtWill"/>
+    <tag group="Damage" tag="Weapon1"/>
+    <tag group="ReqLevel" tag="1"/>
+    <tag group="PowerSrc" tag="Martial"/>
+    <tag group="PowerAcc" tag="Weapon"/>
+    <tag group="AttackType" tag="MeleeWep"/>
+    <tag group="Attack" tag="attrStr"/>
+    <tag group="ActionType" tag="Standard"/>
+    <tag group="AttackVs" tag="defAC"/>
+    </thing>
+
+<thing id="pFCSTidShi" name="Tidal Shield Strike" description="{b}Hit{/b}: 1[W] + Strength modifier damage, and you can push the target 1 square if it is no larger than one size category larger than you. You can then shift 1 square into the space that the target left." compset="Power">
+    <fieldval field="pwFlavor" value="After each swing, you use your shield to shove your foe backward, and then you surge ahead"/>
+    <fieldval field="pwSpecial" value="Dragonborn Fithers Only"/>
+    <fieldval field="pwRequire" value="You must be using a shield."/>
+    <fieldval field="pwTarget" value="One creature"/>
+    <fieldval field="pwAtkMod" value="+1"/>
+    <tag group="PowerClass" tag="clsFighter"/>
+    <tag group="PowerType" tag="AtWill"/>
+    <tag group="Damage" tag="Weapon1"/>
+    <tag group="ReqLevel" tag="1"/>
+    <tag group="PowerSrc" tag="Martial"/>
+    <tag group="PowerAcc" tag="Weapon"/>
+    <tag group="AttackType" tag="MeleeWep"/>
+    <tag group="Attack" tag="attrStr"/>
+    <tag group="ActionType" tag="Standard"/>
+    <tag group="AttackVs" tag="defAC"/>
+    </thing>
+
+  </document>

@@ -505,6 +505,11 @@
       iteminfo &= "{br}"
       endif
 
+    ~add flavor text if we have it
+    if (field[pwFlavor].isempty = 0) then
+      iteminfo &= "{i}" & field[pwFlavor].text & "{/i}{br}"
+      endif
+
     ~add special text if we have it
     if (field[pwSpecial].isempty = 0) then
       iteminfo &= "{b}Special:{/b} " & field[pwSpecial].text & "{br}"
